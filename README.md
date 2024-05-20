@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 ### Prerequisite
-- node^20
+- node^20 (22.2.0 nvm install stable)
 - bun
 
 First, run the development server:
