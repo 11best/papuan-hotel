@@ -4,13 +4,13 @@ export default function Page() {
       <div>
         <h3 className="font-bold">button</h3>
         <div className="grid grid-cols-12 gap-4">
-          <button className="btn">test</button>
-          <button className="btn btn-primary">test</button>
-          <button className="btn btn-secondary">test</button>
-          <button className="btn btn-accent">test</button>
-          <button className="btn btn-neutral">test</button>
-          <button className="btn btn-ghost">test</button>
-          <button className="btn btn-link">test</button>
+          <button className="btn">ทดสอบ</button>
+          <button className="btn btn-primary">ทดสอบ</button>
+          <button className="btn btn-secondary">ทดสอบ</button>
+          <button className="btn btn-accent">ทดสอบ</button>
+          <button className="btn btn-neutral">ทดสอบ</button>
+          <button className="btn btn-ghost">ทดสอบ</button>
+          <button className="btn btn-link">ทดสอบ</button>
         </div>
       </div>
 
