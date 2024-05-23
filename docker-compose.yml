@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_USER: papuan
       POSTGRES_PASSWORD: papuan1234
-      POSTGRES_DB: papuanhotal
+      POSTGRES_DB: papuanhotel
     ports:
       - "5432:5432"
     volumes:
