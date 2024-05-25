@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 
 const kanit = Kanit({ weight: "300", subsets: ["thai"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={kanit.className}>
         <div className="flex flex-col min-h-screen mx-auto max-w-screen-xl">
+          <Sidebar />
           {children}
         </div>
       </body>
