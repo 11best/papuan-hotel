@@ -1,8 +1,17 @@
+"use client";
+import { useRouter } from "next/navigation";
+
 export default function Page() {
+  const router = useRouter();
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    router.push("/hotel");
+  };
+
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
       <div className="card w-96 bg-base-100 shadow-xl">
-        <form className="card-body gap-4">
+        <form className="card-body gap-4" onSubmit={handleSubmit}>
           <input
             required
             type="text"
