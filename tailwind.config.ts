@@ -12,8 +12,9 @@ const config: Config = {
       {
         light: {
           ...require("daisyui/src/theming/themes")["light"],
-          primary: "orange",
-          secondary: "#0ea5e9",
+          primary: "#f59e0b", //amber-500
+          secondary: "#0ea5e9", //sky-500
+          accent: "#f97316", //orange-500
         },
       },
     ],
