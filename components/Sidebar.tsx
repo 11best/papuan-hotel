@@ -7,7 +7,7 @@ import CatIcon from "./Icons/CatIcon";
 
 export default function Sidebar() {
   return (
-    <div className="w-20 min-h-screen">
+    <div className="w-20 mt-12">
       <div className="flex flex-col items-center">
         <button className="btn btn-square btn-ghost" title="Home">
           <HomeIcon className="size-6 text-primary" />
