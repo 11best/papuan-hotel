@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={kanit.className}>
-        <div className="flex flex-col min-h-screen mx-auto max-w-screen-xl">
+        <div className="flex min-h-screen mx-auto max-w-screen-xl">
           <Sidebar />
-          {children}
+          <main className="flex flex-col">{children}</main>
         </div>
       </body>
     </html>
