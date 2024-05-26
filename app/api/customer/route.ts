@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from "uuid";
 const prisma = new PrismaClient();
 
 export async function GET() {
-  const newPost = await prisma.customer.findMany();
-  return Response.json(newPost);
+  const customers = await prisma.customer.findMany();
+  return Response.json(customers);
 }
 
 export async function POST(req: Request) {
@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     await req.json();
   const id = uuidv4();
 
-  const newPost = await prisma.customer.create({
+  const newCustomer = await prisma.customer.create({
     data: {
       id,
       name,
@@ -23,5 +23,5 @@ export async function POST(req: Request) {
       idCardNumber,
     },
   });
-  return Response.json(newPost);
+  return Response.json(newCustomer);
 }
