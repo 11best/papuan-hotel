@@ -11,7 +11,7 @@ export default function ManagementLayout({
       <Sidebar />
       <div className="flex-1 flex flex-col">
         <Header />
-        <div className="px-8">{children}</div>
+        <div className="px-8 py-4">{children}</div>
       </div>
     </div>
   );
