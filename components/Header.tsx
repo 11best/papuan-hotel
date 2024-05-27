@@ -12,7 +12,7 @@ export default function Sidebar() {
           className="btn btn-ghost flex"
           title="Home"
         >
-          <UserCircleIcon className="size-6 text-primary" />
+          <UserCircleIcon className="size-8 text-primary" />
           <div className="text-left">
             <p>papuan namename</p>
             <p className="text-xs mt-1">{currentDate}</p>
