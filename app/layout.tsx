@@ -17,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={kanit.className}>
-        <div className="flex flex-col min-h-screen mx-auto max-w-screen-xl">
-          {children}
-        </div>
+        <main>
+          <div className="min-h-screen mx-auto max-w-screen-xl px-8 py-2">
+            {children}
+          </div>
+        </main>
       </body>
     </html>
   );
